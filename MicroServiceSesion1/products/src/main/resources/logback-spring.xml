@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- Default config and other properties -->
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+    <property name="LOG_FILE" value="/Users/gabcast/Downloads/products/logProduct.log"/>
+
+    <property name="CONSOLE_LOG_PATTERN"
+              value="%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"/>
+
+
+    <!-- Profile independent loggers -->
+    <logger name="com.ibm.datah2" level="INFO"/>
+
+    <!-- Development profile -->
+    <springProfile name="development">
+        <appender name="APPENDER" class="ch.qos.logback.core.ConsoleAppender">
+            <encoder>
+                <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+                <charset>utf8</charset>
+            </encoder>
+        </appender>
+        <logger name="com.ibm.products" level="DEBUG"/>
+        <logger name="com.ibm.products" level="DEBUG"/>
+    </springProfile>
+
+    <!-- Staging/production profile -->
+    <springProfile name="production">
+        <appender name="APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+            <encoder>
+                <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+            </encoder>
+            <file>${LOG_FILE}</file>
+            <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+                <fileNamePattern>${LOG_FILE}.%d</fileNamePattern>
+                <maxHistory>20</maxHistory>
+            </rollingPolicy>
+        </appender>
+    </springProfile>
+
+    <!-- Root logger -->
+    <root level="INFO">
+        <appender-ref ref="APPENDER" />
+    </root>
+
+</configuration>

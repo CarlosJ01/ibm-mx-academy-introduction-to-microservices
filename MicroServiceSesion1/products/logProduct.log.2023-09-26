@@ -1,0 +1,77 @@
+2023-09-26 14:43:26.394  INFO 13257 --- [  restartedMain] com.ibm.products.ProductsApplication     : Starting ProductsApplication using Java 17.0.7 with PID 13257 (/Users/gabcast/Downloads/products/target/classes started by gabcast in /Users/gabcast/Downloads/products)
+2023-09-26 14:43:26.404  INFO 13257 --- [  restartedMain] com.ibm.products.ProductsApplication     : The following 1 profile is active: "production"
+2023-09-26 14:43:26.506  INFO 13257 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-26 14:43:26.508  INFO 13257 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-26 14:43:27.195  INFO 13257 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-26 14:43:27.276  INFO 13257 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interfaces.
+2023-09-26 14:43:28.014  INFO 13257 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-26 14:43:28.027  INFO 13257 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-26 14:43:28.028  INFO 13257 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-26 14:43:28.090  INFO 13257 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-26 14:43:28.091  INFO 13257 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1581 ms
+2023-09-26 14:43:28.152  INFO 13257 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-26 14:43:28.301  INFO 13257 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:4386f96c-51dd-4f41-8779-e83022ac25e0 user=SA
+2023-09-26 14:43:28.303  INFO 13257 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-26 14:43:28.320  INFO 13257 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:4386f96c-51dd-4f41-8779-e83022ac25e0'
+2023-09-26 14:43:28.457  INFO 13257 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-26 14:43:28.511  INFO 13257 --- [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-09-26 14:43:28.734  INFO 13257 --- [  restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-09-26 14:43:29.207  INFO 13257 --- [  restartedMain] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'file:/Users/gabcast/Downloads/products/target/classes/import.sql'
+2023-09-26 14:43:29.212  INFO 13257 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-26 14:43:29.219  INFO 13257 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-26 14:43:29.544  WARN 13257 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-26 14:43:29.991  INFO 13257 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-26 14:43:30.021  INFO 13257 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-26 14:43:30.043  INFO 13257 --- [  restartedMain] com.ibm.products.ProductsApplication     : Started ProductsApplication in 4.323 seconds (process running for 5.143)
+2023-09-26 14:43:37.040  INFO 13272 --- [  restartedMain] com.ibm.products.ProductsApplication     : Starting ProductsApplication using Java 17.0.7 with PID 13272 (/Users/gabcast/Downloads/products/target/classes started by gabcast in /Users/gabcast/Downloads/products)
+2023-09-26 14:43:37.045  INFO 13272 --- [  restartedMain] com.ibm.products.ProductsApplication     : The following 1 profile is active: "production"
+2023-09-26 14:43:37.126  INFO 13272 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-26 14:43:37.126  INFO 13272 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-26 14:43:37.765  INFO 13272 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-26 14:43:37.833  INFO 13272 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2023-09-26 14:43:38.593  INFO 13272 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-26 14:43:38.605  INFO 13272 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-26 14:43:38.605  INFO 13272 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-26 14:43:38.671  INFO 13272 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-26 14:43:38.672  INFO 13272 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1544 ms
+2023-09-26 14:43:38.723  INFO 13272 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-26 14:43:38.871  INFO 13272 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:e94eba0e-716f-4ecd-8fcc-98c3461076c4 user=SA
+2023-09-26 14:43:38.874  INFO 13272 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-26 14:43:38.891  INFO 13272 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:e94eba0e-716f-4ecd-8fcc-98c3461076c4'
+2023-09-26 14:43:39.028  INFO 13272 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-26 14:43:39.067  INFO 13272 --- [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-09-26 14:43:39.275  INFO 13272 --- [  restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-09-26 14:43:39.775  INFO 13272 --- [  restartedMain] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'file:/Users/gabcast/Downloads/products/target/classes/import.sql'
+2023-09-26 14:43:39.780  INFO 13272 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-26 14:43:39.786  INFO 13272 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-26 14:43:40.111  WARN 13272 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-26 14:43:40.423  WARN 13272 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-09-26 14:43:40.442  WARN 13272 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-09-26 14:43:40.444  INFO 13272 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-26 14:43:40.445  INFO 13272 --- [  restartedMain] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-09-26 14:43:40.657  WARN 13272 --- [  restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-09-26 14:43:40.661  INFO 13272 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-26 14:43:40.669  INFO 13272 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-26 14:43:40.676  INFO 13272 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-26 14:43:40.704  INFO 13272 --- [  restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-26 14:43:40.723 ERROR 13272 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-09-26 14:44:07.845  INFO 13257 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-26 14:44:07.847  INFO 13257 --- [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-09-26 14:44:08.069  WARN 13257 --- [ionShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-09-26 14:44:08.073  INFO 13257 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-26 14:44:08.083  INFO 13257 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
